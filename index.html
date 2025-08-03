@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="flex item-center justify-between">
+                <div class="left flex item-center">
+                    <div class="logo">
+                        <img src="./img/images-for-portfolio/images/logome2.svg" alt="logo">
+                    </div>
+                    <div>
+                        <a href="#">Home</a>
+                        <a href="#about">ABOUT</a>
+                        <!--<a href="#">SERVICES</a>-->
+                        <a href="#portfolio">PORTFOLIO</a>
+                        <a href="#">PAGES</a>
+                        <a href="#">BLOG</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <button onclick="location.href='#contact'" class="btn btn-primary">CONTACT</button>
+                </div>
+            </nav>
+            <div class="hero flex item-center">
+                <div class="left flex-1 flex justify-center">
+                    <img alt="hero image" src="img/images-for-portfolio/images/me.png">
+                </div>
+                <div class="right flex-1">
+                    <h6>SYED ALI USMAN</h6>
+                    <h1>I am a Software <span> Engineer </span></h1>
+                    <p>
+                        As a software engineer, my goal is to utilize my programming and analytical skills to design, develop, and
+                        maintain high-quality software products that meet the needs of  end-users. I aim to continuously learn and
+                        incorporate new technologies to improve the performance and efficiency, while also adhering to best coding
+                        practices and industry standards.
+                    </p>
+                    <div>
+                        <button class="btn btn-secondary" onclick="downloadCV()">Download cv</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <div class="container flex item-center">
+            <div class="flex-1">
+                <img class="about-me-img" src="img/images-for-portfolio/images/me-2.png" alt="img">
+            </div>
+            <div class="flex-1">
+                <h1> About <span> Me </span></h1>
+                <!--  <h3>Hello! My Name</h3> -->
+                <p>
+                    Motivated developer with solid experience in programming and tools, aiming to contribute to a dynamic team and grow alongside the organization.
+                </p>
+                <div class="social">
+                    <a href="#"><img src="img/website.png" alt="website"></a>
+                    <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="img/twitter.png" alt="twitter"></a>
+                    <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+                    <a href="#"><img src="img/pintrest.png" alt="pintrest"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects-section" id="portfolio">
+        <div class="container">
+            <h1 class="section-heading">
+                <span>My</span> Portfolio
+            </h1>
+            <p>
+                These are the games I have worked on.
+            </p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.gks.us.police.robot.muscle.car.transform.spider.games">
+                        <img src="img/spider.png" alt="Game 1">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.gks.virtual.life.police.dad.game.family.games">
+                        <img src="img/virtualdad.png" alt="Game 2">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.gks.nypd.car.chase.encounter.police.russian.gangster.mafia">
+                        <img src="img/prado.png" alt="Game 3">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.gpz.watersort3d.braingames.trainbrain">
+                        <img src="img/watersort.png" alt="Game 4">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.gpz.bus.jam.food.mania.game">
+                        <img src="img/foodmaina.png" alt="Game 5">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.gks.hill.city.multi.limo.taxi.transport.simulator">
+                        <img src="img/limotaxi.png" alt="Game 6">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.gks.robotron.street.robot.fighting.war">
+                        <img src="img/kungfu.png" alt="Game 6">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.gks.flying.police.robot.bike.futuristic.city.wars">
+                        <img src="img/offroad.png" alt="Game 6">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<section class="services">
+        <div class="container">
+            <h1 class="section-heading">
+                <span>Our</span> Services
+            </h1>
+            <p>
+                We provide high stander clean website for your business solutions
+            </p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="img/brush.png" alt="brush">
+                    <h2>Graphic Design</h2>
+                    <p>
+                        Searching for a challenging position as a software engineer to utilise my tech and
+                        design skills for software program development, testing and quality management.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/desktop.png" alt="brush">
+                    <h2>Web Development</h2>
+                    <p>
+                        Searching for a challenging position as a software engineer to utilise my tech and
+                        design skills for software program development, testing and quality management.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/images-for-portfolio/images/phone.png" alt="brush">
+                    <h2>Game Development</h2>
+                    <p>
+                        Searching for a challenging position as a software engineer to utilise my tech and
+                        design skills for software program development, testing and quality management.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/images-for-portfolio/images/phone.png" alt="brush">
+                    <h2>App Development</h2>
+                    <p>
+                        Searching for a challenging position as a software engineer to utilise my tech and
+                        design skills for software program development, testing and quality management.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/code.png" alt="brush">
+                    <h2>Machine Learning</h2>
+                    <p>
+                        Searching for a challenging position as a software engineer to utilise my tech and
+                        design skills for software program development, testing and quality management.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/desktop.png" alt="brush">
+                    <h2>Artifical Intelligence</h2>
+                    <p>
+                        Searching for a challenging position as a software engineer to utilise my tech and
+                        design skills for software program development, testing and quality management.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>-->
+      <section class="freelancer">
+          <h1>I Am Available For Freelancer</h1>
+          <p>
+              I design and develop engaging, high-quality games that bring your ideas to life.
+          </p>
+          <button class="btn btn-primary" onclick="downloadCV()">CV Download</button>
+      </section>
+    <section class="contact" id="contact">
+        <h1 class="section-heading">
+            <span>Contact</span> Us
+        </h1>
+        
+        <p>Have a project idea or need a developer? Feel free to reach out—I’d love to hear from you.</p>
+        <!--<div class="divider">❂✦❂</div>-->
+
+        <form class="contact-form">
+            <div class="form-row">
+                <div class="half">
+                    <input type="text" name="first_name" placeholder="Your Name" required />
+                </div>
+                <div class="half">
+                    <input type="text" name="last_name" placeholder="Last Name" required />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="half">
+                    <input type="text" name="subject" placeholder="Subject" required />
+                </div>
+                <div class="half">
+                    <input type="email" name="email" placeholder="Your Mail" required />
+                </div>
+            </div>
+
+            <textarea name="message" placeholder="Write Message..." required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <section class="review">
+        <div class="container">
+            <!--<h1 class="section-heading">
+                <span>Our</span> Client
+            </h1>
+            <p>
+                We provide high stander clean website for your business solutions
+            </p>-->
+            <!-- <div class="slider">
+                <div class="slide">
+                    <img src="img/images-for-portfolio/images/lady.png" alt="img">
+                    <p>
+                        An exceptionally creative individual with a BSc in Computer Science and internship experience in software design.
+                        Seeking the role of Software Engineer at CDC Inc. to incorporate my extensive knowledge of software designing and
+                        development to meet the clients’ specifications and gain professional experience alongside.
+                    </p>
+                    <span>- Client Name, Company ABC</span>
+                </div>
+                <div class="slide">
+                    <img src="img/images-for-portfolio/images/lady.png" alt="img">
+                    <p>
+                        An exceptionally creative individual with a BSc in Computer Science and internship experience in software design.
+                        Seeking the role of Software Engineer at CDC Inc. to incorporate my extensive knowledge of software designing and
+                        development to meet the clients’ specifications and gain professional experience alongside.
+                    </p>
+                    <span>- Client Name, Company ABC</span>
+                </div>
+                <div class="slide">
+                    <img src="img/images-for-portfolio/images/lady.png" alt="img">
+                    <p>
+                        An exceptionally creative individual with a BSc in Computer Science and internship experience in software design.
+                        Seeking the role of Software Engineer at CDC Inc. to incorporate my extensive knowledge of software designing and
+                        development to meet the clients’ specifications and gain professional experience alongside.
+                    </p>
+                    <span>- Client Name, Company ABC</span>
+                </div>
+                <div class="slide">
+                    <img src="img/images-for-portfolio/images/lady.png" alt="img">
+                    <p>
+                        An exceptionally creative individual with a BSc in Computer Science and internship experience in software design.
+                        Seeking the role of Software Engineer at CDC Inc. to incorporate my extensive knowledge of software designing and
+                        development to meet the clients’ specifications and gain professional experience alongside.
+                    </p>
+                    <span>- Client Name, Company ABC</span>
+                </div>
+                <div class="slide">
+                    <img src="img/images-for-portfolio/images/lady.png" alt="img">
+                    <p>
+                        An exceptionally creative individual with a BSc in Computer Science and internship experience in software design.
+                        Seeking the role of Software Engineer at CDC Inc. to incorporate my extensive knowledge of software designing and
+                        development to meet the clients’ specifications and gain professional experience alongside.
+                    </p>
+                    <span>- Client Name, Company ABC</span>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script> -->
+
+
+    <script src="./js/download.js"></script>
+</body>
+</html>
